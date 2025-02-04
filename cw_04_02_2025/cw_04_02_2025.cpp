@@ -44,8 +44,8 @@ int vowelEndingWordCount(_TCHAR str[])
 
 void main()
 {
-    SetConsoleOutputCP(65001);
-    SetConsoleCP(65001);
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
 
     _TCHAR szBuf3[300] = _T("съешь ещё этих мягких французских булок, да выпей чаю.");
 
